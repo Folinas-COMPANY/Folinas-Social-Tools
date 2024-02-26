@@ -344,6 +344,7 @@ class HomeWindow(QMainWindow):
                 for file in os_sorted(os.listdir(uploadFolderPath)):
                     full = os.path.join(uploadFolderPath, file)
                     absolute_file_path = str(Path.cwd() / full)
+                    print(f"==>> absolute_file_path: {absolute_file_path}")
                     if '-RENDERED' in absolute_file_path:
                         continue
                     if not absolute_file_path.endswith(tuple(ext)):
@@ -360,6 +361,7 @@ class HomeWindow(QMainWindow):
                     except:
                         print(traceback.format_exc())
                         output = 0
+
                     file_split = file.split('.')
                     title = file_split[0]
                     self.pushInfo.emit(title, output, absolute_file_path)

@@ -1,0 +1,2499 @@
+==>> Time: 29-01-2024 15:15:01
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: near ",": syntax error
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\AddUserWindow.py", line 42, in startAddingToDB
+    cursor.execute(sql_query, (profileName, uore,
+
+==>> Time: 29-01-2024 15:15:38
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: near ",": syntax error
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\AddUserWindow.py", line 42, in startAddingToDB
+    cursor.execute(sql_query, (profileName, uore,
+
+==>> Time: 29-01-2024 15:53:25
+==>> Type: <class 'TypeError'>
+==>> Value: setUpProfilesTable.<locals>.<lambda>() missing 1 required positional argument: 'table'
+==>> Traceback:
+
+==>> Time: 29-01-2024 15:53:39
+==>> Type: <class 'TypeError'>
+==>> Value: setUpProfilesTable.<locals>.<lambda>() missing 1 required positional argument: 'table'
+==>> Traceback:
+
+==>> Time: 29-01-2024 15:55:08
+==>> Type: <class 'TypeError'>
+==>> Value: customMenu() missing 1 required positional argument: 'table'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 12, in <lambda>
+    table.contextMenuEvent = lambda table: customMenu(table)
+                                           ^^^^^^^^^^^^^^^^^
+
+==>> Time: 29-01-2024 15:55:37
+==>> Type: <class 'TypeError'>
+==>> Value: setUpProfilesTable.<locals>.<lambda>() missing 1 required positional argument: 'table'
+==>> Traceback:
+
+==>> Time: 29-01-2024 17:10:34
+==>> Type: <class 'KeyError'>
+==>> Value: '104.129.48.19:4444:tiktok2024:bonbon9999'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\AddUserWindow.py", line 58, in startAddingToDB
+    self.loadProfilesToTableFunc()
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 55, in loadProfilesToTable
+    row, 4, QTableWidgetItemCenter(data[record[7]]))
+                                   ~~~~^^^^^^^^^^^
+
+==>> Time: 30-01-2024 09:18:05
+==>> Type: <class 'TypeError'>
+==>> Value: FacebookLogin.stateAccount[int, str] signal has 2 argument(s) but 1 provided
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 34, in run
+    self.stateAccount.emit('Khởi tạo trình duyệt')
+
+==>> Time: 30-01-2024 09:18:52
+==>> Type: <class 'IndexError'>
+==>> Value: tuple index out of range
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 99, in startBrowserFromUore
+    proxy = record[15]
+            ~~~~~~^^^^
+
+==>> Time: 30-01-2024 09:19:39
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [Errno 2] No such file or directory: './last_location/last_location.json'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 103, in startBrowserFromUore
+    with open('./last_location/last_location.json', 'r+', encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 30-01-2024 09:20:31
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [Errno 2] No such file or directory: './last_location/last_location.json'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 103, in startBrowserFromUore
+    with open('./last_location/last_location.json', 'r+', encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 30-01-2024 09:21:07
+==>> Type: <class 'IndexError'>
+==>> Value: tuple index out of range
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 107, in startBrowserFromUore
+    id_browser = record[18]
+                 ~~~~~~^^^^
+
+==>> Time: 30-01-2024 09:21:21
+==>> Type: <class 'IndexError'>
+==>> Value: tuple index out of range
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 113, in startBrowserFromUore
+    ACTION_FOR_BROWSER_CREATE, proxy, user_agent, webgl_vendor, longla, record[17])
+                                                                        ~~~~~~^^^^
+
+==>> Time: 30-01-2024 09:31:13
+==>> Type: <class 'TypeError'>
+==>> Value: super(type, obj): obj must be an instance or subtype of type
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 44, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(event, table)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 39, in customMenu
+    editThisAccountWindow(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 18, in editThisAccountWindow
+    table.editUserWindow = EditUserWindow(uore)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\AddUserWindow.py", line 75, in __init__
+    super(AddUserWindow, self).__init__()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 30-01-2024 09:34:02
+==>> Type: <class 'TypeError'>
+==>> Value: setChecked(self, a0: bool): not enough arguments
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 45, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(event, table)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 40, in customMenu
+    editThisAccountWindow(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 18, in editThisAccountWindow
+    table.editUserWindow = EditUserWindow(uore)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\AddUserWindow.py", line 94, in __init__
+    self.ui.http.setChecked()
+
+==>> Time: 30-01-2024 09:47:57
+==>> Type: <class 'TypeError'>
+==>> Value: FacebookLogin.loginNormal() takes 2 positional arguments but 3 were given
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 57, in run
+    self.loginNormal(self, browser)
+
+==>> Time: 30-01-2024 14:36:25
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 59, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 88, in loginNormal
+    inputEmail.send_keys(self.username)
+    ^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 30-01-2024 15:30:12
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: no such table: profiles
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 60, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 96, in loginNormal
+    cursor.execute(sql_query, (1, self.username))
+
+==>> Time: 30-01-2024 15:32:41
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 60, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 126, in loginNormal
+    continueBtn.click()
+    ^^^^^^^^^^^^^^^^^
+
+==>> Time: 30-01-2024 17:25:10
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 60, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 108, in loginNormal
+    inputEmail.send_keys(self.username)
+    ^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 31-01-2024 09:47:34
+==>> Type: <class 'UnboundLocalError'>
+==>> Value: cannot access local variable 'getAssets' where it is not associated with a value
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 96, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(event, table)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 90, in customMenu
+    elif res == getAssets:
+                ^^^^^^^^^
+
+==>> Time: 31-01-2024 09:48:02
+==>> Type: <class 'UnboundLocalError'>
+==>> Value: cannot access local variable 'getAssets' where it is not associated with a value
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 96, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(event, table)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 90, in customMenu
+    elif getAssets and res == getAssets:
+         ^^^^^^^^^
+
+==>> Time: 31-01-2024 09:57:18
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:14308
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B2733+2434867]
+	Ordinal0 [0x008407A1+1968033]
+	Ordinal0 [0x0072C678+837240]
+	Ordinal0 [0x0074CAC3+969411]
+	Ordinal0 [0x007460DB+942299]
+	Ordinal0 [0x00745EA6+941734]
+	Ordinal0 [0x007790B0+1151152]
+	Ordinal0 [0x00778D0A+1150218]
+	Ordinal0 [0x00774256+1131094]
+	Ordinal0 [0x0074E840+976960]
+	Ordinal0 [0x0074F736+980790]
+	GetHandleVerifier [0x00B23C72+2515426]
+	GetHandleVerifier [0x00B1702F+2463135]
+	GetHandleVerifier [0x0095522A+620442]
+	GetHandleVerifier [0x00954016+615814]
+	Ordinal0 [0x0084707B+1994875]
+	Ordinal0 [0x0084B938+2013496]
+	Ordinal0 [0x0084BA25+2013733]
+	Ordinal0 [0x00854DE1+2051553]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 166, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 313, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 09:57:55
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 182, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 212, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:00:48
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 182, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 212, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:06:27
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 183, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 224, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:11:15
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 183, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 225, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:15:55
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 183, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 225, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:22:42
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00546E73+48323]
+	(No symbol) [0x004D9661]
+	(No symbol) [0x003E5308]
+	(No symbol) [0x003D70D0]
+	(No symbol) [0x003D775A]
+	(No symbol) [0x003E7221]
+	(No symbol) [0x003E77CF]
+	(No symbol) [0x003E9991]
+	(No symbol) [0x003E9A30]
+	(No symbol) [0x0043E6E8]
+	(No symbol) [0x0043E465]
+	(No symbol) [0x0042A8DC]
+	(No symbol) [0x0043CAC2]
+	(No symbol) [0x0042A6D6]
+	(No symbol) [0x0040847C]
+	(No symbol) [0x0040957D]
+	GetHandleVerifier [0x007AFD5D+2575277]
+	GetHandleVerifier [0x007EF86E+2836158]
+	GetHandleVerifier [0x007E96DC+2811180]
+	GetHandleVerifier [0x005D41B0+626688]
+	(No symbol) [0x004E314C]
+	(No symbol) [0x004DF4B8]
+	(No symbol) [0x004DF59B]
+	(No symbol) [0x004D21B7]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 183, in run
+    self.loginNormal(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 225, in loginNormal
+    browser.get('https://www.youtube.com/')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 29, in get
+    clean_current = self.driver.current_url.split('://')[-1]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 10:24:46
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:12588
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B2733+2434867]
+	Ordinal0 [0x008407A1+1968033]
+	Ordinal0 [0x0072C678+837240]
+	Ordinal0 [0x0074CAC3+969411]
+	Ordinal0 [0x007460DB+942299]
+	Ordinal0 [0x00745EA6+941734]
+	Ordinal0 [0x007790B0+1151152]
+	Ordinal0 [0x00778D0A+1150218]
+	Ordinal0 [0x00774256+1131094]
+	Ordinal0 [0x0074E840+976960]
+	Ordinal0 [0x0074F736+980790]
+	GetHandleVerifier [0x00B23C72+2515426]
+	GetHandleVerifier [0x00B1702F+2463135]
+	GetHandleVerifier [0x0095522A+620442]
+	GetHandleVerifier [0x00954016+615814]
+	Ordinal0 [0x0084707B+1994875]
+	Ordinal0 [0x0084B938+2013496]
+	Ordinal0 [0x0084BA25+2013733]
+	Ordinal0 [0x00854DE1+2051553]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 167, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 326, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 14:10:44
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:13305
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B2733+2434867]
+	Ordinal0 [0x008407A1+1968033]
+	Ordinal0 [0x0072C678+837240]
+	Ordinal0 [0x0074CAC3+969411]
+	Ordinal0 [0x007460DB+942299]
+	Ordinal0 [0x00745EA6+941734]
+	Ordinal0 [0x007790B0+1151152]
+	Ordinal0 [0x00778D0A+1150218]
+	Ordinal0 [0x00774256+1131094]
+	Ordinal0 [0x0074E840+976960]
+	Ordinal0 [0x0074F736+980790]
+	GetHandleVerifier [0x00B23C72+2515426]
+	GetHandleVerifier [0x00B1702F+2463135]
+	GetHandleVerifier [0x0095522A+620442]
+	GetHandleVerifier [0x00954016+615814]
+	Ordinal0 [0x0084707B+1994875]
+	Ordinal0 [0x0084B938+2013496]
+	Ordinal0 [0x0084BA25+2013733]
+	Ordinal0 [0x00854DE1+2051553]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 209, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 278, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 31-01-2024 16:13:09
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 295, in run
+    inputBtn.send_keys(self.username)
+    ^^^^^^^^^^^^^^^^^^
+
+==>> Time: 31-01-2024 16:19:02
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:7624
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AE2733+2434867]
+	Ordinal0 [0x00A707A1+1968033]
+	Ordinal0 [0x0095C678+837240]
+	Ordinal0 [0x0097CAC3+969411]
+	Ordinal0 [0x009760DB+942299]
+	Ordinal0 [0x00975EA6+941734]
+	Ordinal0 [0x009A90B0+1151152]
+	Ordinal0 [0x009A8D0A+1150218]
+	Ordinal0 [0x009A4256+1131094]
+	Ordinal0 [0x0097E840+976960]
+	Ordinal0 [0x0097F736+980790]
+	GetHandleVerifier [0x00D53C72+2515426]
+	GetHandleVerifier [0x00D4702F+2463135]
+	GetHandleVerifier [0x00B8522A+620442]
+	GetHandleVerifier [0x00B84016+615814]
+	Ordinal0 [0x00A7707B+1994875]
+	Ordinal0 [0x00A7B938+2013496]
+	Ordinal0 [0x00A7BA25+2013733]
+	Ordinal0 [0x00A84DE1+2051553]
+	BaseThreadInitThunk [0x76C6FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 286, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 351, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 01-02-2024 08:09:49
+==>> Type: <class 'TypeError'>
+==>> Value: invalid result from getAssetsFacebookThread.run()
+==>> Traceback:
+
+==>> Time: 01-02-2024 08:14:54
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:10663
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00962733+2434867]
+	Ordinal0 [0x008F07A1+1968033]
+	Ordinal0 [0x007DC678+837240]
+	Ordinal0 [0x007FCAC3+969411]
+	Ordinal0 [0x007F60DB+942299]
+	Ordinal0 [0x007F5EA6+941734]
+	Ordinal0 [0x008290B0+1151152]
+	Ordinal0 [0x00828D0A+1150218]
+	Ordinal0 [0x00824256+1131094]
+	Ordinal0 [0x007FE840+976960]
+	Ordinal0 [0x007FF736+980790]
+	GetHandleVerifier [0x00BD3C72+2515426]
+	GetHandleVerifier [0x00BC702F+2463135]
+	GetHandleVerifier [0x00A0522A+620442]
+	GetHandleVerifier [0x00A04016+615814]
+	Ordinal0 [0x008F707B+1994875]
+	Ordinal0 [0x008FB938+2013496]
+	Ordinal0 [0x008FBA25+2013733]
+	Ordinal0 [0x00904DE1+2051553]
+	BaseThreadInitThunk [0x7635FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775A7C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x775A7C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 127, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 459, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 01-02-2024 12:44:51
+==>> Type: <class 'AttributeError'>
+==>> Value: 'HomeWindow' object has no attribute 'loadFromFolderThread'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 76, in loadFilesFromFolder
+    if self.loadFromFolderThread != None and self.loadFromFolderThread.isRunning():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 01-02-2024 14:26:06
+==>> Type: <class 'TypeError'>
+==>> Value: setText(self, a0: Optional[str]): argument 1 has unexpected type 'QTableWidgetItemCenter'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 264, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 250, in customMenuVideos
+    editThisVideo(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 220, in editThisVideo
+    table.editWindow = ReadUpdateVideoWindow()
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 216, in __init__
+    self.ui.titleLine.setText(table.item(index, 0))
+
+==>> Time: 01-02-2024 15:56:04
+==>> Type: <class 'AttributeError'>
+==>> Value: 'PickUploadAccountWindow' object has no attribute 'updateAllOneRow'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 87, in <lambda>
+    self.ui.doIt.clicked.connect(lambda: self.saveChanges())
+                                         ^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 148, in saveChanges
+    self.updateAllOneRow(self.oneRow, 6, result)
+    ^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 01-02-2024 16:06:18
+==>> Type: <class 'TypeError'>
+==>> Value: setItem(self, row: int, column: int, item: Optional[QTableWidgetItem]): argument 3 has unexpected type 'str'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 87, in <lambda>
+    self.ui.doIt.clicked.connect(lambda: self.saveChanges())
+                                         ^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 158, in saveChanges
+    self.bigMainTable.setItem(self.oneRow, 7, result)
+
+==>> Time: 01-02-2024 16:07:44
+==>> Type: <class 'AttributeError'>
+==>> Value: 'builtin_function_or_method' object has no attribute 'close'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 87, in <lambda>
+    self.ui.doIt.clicked.connect(lambda: self.saveChanges())
+                                         ^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\PickUploadAccountWindow.py", line 199, in saveChanges
+    self.window.close()
+    ^^^^^^^^^^^^^^^^^
+
+==>> Time: 02-02-2024 09:39:59
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [WinError 3] The system cannot find the path specified: ''
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 140, in run
+    for file in os_sorted(os.listdir(uploadFolderPath)):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 02-02-2024 11:27:40
+==>> Type: <class 'NameError'>
+==>> Value: name 'indexOfProfileInTable' is not defined
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 98, in openQueueWindow
+    self.assignThisVideoToProfiles(
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 83, in assignThisVideoToProfiles
+    indexOfVideoToUpload, indexOfProfileInTable)
+                          ^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 02-02-2024 11:29:37
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'findChild'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 98, in openQueueWindow
+    self.assignThisVideoToProfiles(
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 82, in assignThisVideoToProfiles
+    queueWindow.addNewVideoToGridContainsVideo(
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 102, in addNewVideoToGridContainsVideo
+    gridContainsVideo = vbox.findChild(QGridLayout, 'gridContainsVideo')
+                        ^^^^^^^^^^^^^^
+
+==>> Time: 02-02-2024 11:31:24
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'findChild'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 98, in openQueueWindow
+    self.assignThisVideoToProfiles(
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 82, in assignThisVideoToProfiles
+    queueWindow.addNewVideoToGridContainsVideo(
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 105, in addNewVideoToGridContainsVideo
+    gridContainsVideo = vbox.findChild(QGridLayout, 'gridContainsVideo')
+                        ^^^^^^^^^^^^^^
+
+==>> Time: 02-02-2024 14:17:32
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 186, in openQueueWindow
+    self.assignAssetsLabelToQueue(
+  File "d:\Folinas Socials Tool\windows\HomeWindow.py", line 150, in assignAssetsLabelToQueue
+    ownerid = record[2]
+              ~~~~~~^^^
+
+==>> Time: 02-02-2024 16:07:32
+==>> Type: <class 'AttributeError'>
+==>> Value: 'QTableWidget' object has no attribute 'unique_arr'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 296, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(
+                                           ^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 238, in customMenu
+    if index.isValid() and len(table.unique_arr) == 1:
+                               ^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 08:41:13
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 285, in <lambda>
+    lambda: self.startThisWorkerNow(indexAsset, startWorker))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 41, in startThisWorkerNow
+    self.uploadTask = StaffUpload(
+                      ^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in __init__
+    ownerid = record[2]
+              ~~~~~~^^^
+
+==>> Time: 03-02-2024 08:45:47
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 285, in <lambda>
+    lambda: self.startThisWorkerNow(indexAsset, startWorker))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 41, in startThisWorkerNow
+    self.uploadTask = StaffUpload(
+                      ^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 35, in __init__
+    ownerid = record[2]
+              ~~~~~~^^^
+
+==>> Time: 03-02-2024 08:47:09
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 285, in <lambda>
+    lambda: self.startThisWorkerNow(indexAsset, startWorker))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 41, in startThisWorkerNow
+    self.uploadTask = StaffUpload(
+                      ^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 36, in __init__
+    ownerid = record[2]
+              ~~~~~~^^^
+
+==>> Time: 03-02-2024 08:56:53
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:10034
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 50, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 657, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:11:38
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:22599
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 658, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:13:00
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:41862
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 658, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:14:20
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:11103
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 658, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:18:38
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:15259
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 659, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:19:22
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:7822
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 659, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:20:11
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:7822
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 51, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 659, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 09:30:43
+==>> Type: <class 'AttributeError'>
+==>> Value: 'QueueWindow' object has no attribute 'browsersId'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 67, in addNewBrowserToGridScreen
+    self.browsersId.append(processId)
+    ^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 09:47:17
+==>> Type: <class 'AttributeError'>
+==>> Value: 'QueueWindow' object has no attribute 'driver'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 321, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 41, in stopThisWorkerNow
+    "profile_id": self.driver.profile_id
+                  ^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:03:08
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x01036E73+48323]
+	(No symbol) [0x00FC9661]
+	(No symbol) [0x00ED5308]
+	(No symbol) [0x00EC8395]
+	(No symbol) [0x00EC829C]
+	(No symbol) [0x00EC6ED6]
+	(No symbol) [0x00EC7638]
+	(No symbol) [0x00ED6B02]
+	(No symbol) [0x00F2D0A1]
+	(No symbol) [0x00F1A8DC]
+	(No symbol) [0x00F2CAC2]
+	(No symbol) [0x00F1A6D6]
+	(No symbol) [0x00EF847C]
+	(No symbol) [0x00EF957D]
+	GetHandleVerifier [0x0129FD5D+2575277]
+	GetHandleVerifier [0x012DF86E+2836158]
+	GetHandleVerifier [0x012D96DC+2811180]
+	GetHandleVerifier [0x010C41B0+626688]
+	(No symbol) [0x00FD314C]
+	(No symbol) [0x00FCF4B8]
+	(No symbol) [0x00FCF59B]
+	(No symbol) [0x00FC21B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 67, in run
+    browser.get('https://business.facebook.com/latest/home')
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 39, in get
+    self.driver.get(url)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 10:22:02
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [Errno 2] No such file or directory: 'data/settingPlaform.json'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 87, in uploadFacebook
+    with open('data/settingPlaform.json', 'r+') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:22:58
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [Errno 2] No such file or directory: '/data/settingPlaform.json'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 87, in uploadFacebook
+    with open('/data/settingPlaform.json', 'r+') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:23:53
+==>> Type: <class 'json.decoder.JSONDecodeError'>
+==>> Value: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 88, in uploadFacebook
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:24:48
+==>> Type: <class 'json.decoder.JSONDecodeError'>
+==>> Value: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 88, in uploadFacebook
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:25:36
+==>> Type: <class 'TypeError'>
+==>> Value: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 88, in uploadFacebook
+    data = json.loads(f)
+           ^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+
+==>> Time: 03-02-2024 10:26:58
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [Errno 2] No such file or directory: './last_location/settingPlatform.json'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 88, in uploadFacebook
+    f = open('./last_location/settingPlatform.json', 'r')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:27:24
+==>> Type: <class 'json.decoder.JSONDecodeError'>
+==>> Value: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 69, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 89, in uploadFacebook
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 10:36:26
+==>> Type: <class 'TypeError'>
+==>> Value: StaffUpload.update_slashState_signal[int, str] signal has 2 argument(s) but 1 provided
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 56, in run
+    self.update_slashState_signal.emit(
+
+==>> Time: 03-02-2024 11:04:53
+==>> Type: <class 'TypeError'>
+==>> Value: StaffUpload.__reelsFacebook() missing 1 required positional argument: 'indexVideo'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 75, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 251, in uploadFacebook
+    self.__reelsFacebook(browser)
+
+==>> Time: 03-02-2024 11:15:23
+==>> Type: <class 'TypeError'>
+==>> Value: StaffUpload.update_slashState_signal[int, str] signal has 2 argument(s) but 1 provided
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 75, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 459, in uploadFacebook
+    self.__reelsFacebook(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 196, in __reelsFacebook
+    self.update_slashState_signal.emit('Upload xong..')
+
+==>> Time: 03-02-2024 11:28:28
+==>> Type: <class 'selenium.common.exceptions.ElementClickInterceptedException'>
+==>> Value: Message: element click intercepted: Element <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">...</div> is not clickable at point (575, 68). Other element would receive the click: <div aria-level="4" class="x1xqt7ti xsuwoey x63nzvj xbsr9hj x1yc453h xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x117nqv4 xeuugli" id="js_1h" role="heading">...</div>
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x01036E73+48323]
+	(No symbol) [0x00FC9661]
+	(No symbol) [0x00ED5308]
+	(No symbol) [0x00F05202]
+	(No symbol) [0x00F03D38]
+	(No symbol) [0x00F0253B]
+	(No symbol) [0x00F0193E]
+	(No symbol) [0x00EFA0FC]
+	(No symbol) [0x00F1A8DC]
+	(No symbol) [0x00EF9BD6]
+	(No symbol) [0x00F1AC34]
+	(No symbol) [0x00F2CAC2]
+	(No symbol) [0x00F1A6D6]
+	(No symbol) [0x00EF847C]
+	(No symbol) [0x00EF957D]
+	GetHandleVerifier [0x0129FD5D+2575277]
+	GetHandleVerifier [0x012DF86E+2836158]
+	GetHandleVerifier [0x012D96DC+2811180]
+	GetHandleVerifier [0x010C41B0+626688]
+	(No symbol) [0x00FD314C]
+	(No symbol) [0x00FCF4B8]
+	(No symbol) [0x00FCF59B]
+	(No symbol) [0x00FC21B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 75, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 492, in uploadFacebook
+    self.__reelsFacebook(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 365, in __reelsFacebook
+    publicBtn.click()
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 11:59:20
+==>> Type: <class 'selenium.common.exceptions.NoSuchWindowException'>
+==>> Value: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x01036E73+48323]
+	(No symbol) [0x00FC9661]
+	(No symbol) [0x00ED5308]
+	(No symbol) [0x00EBD243]
+	(No symbol) [0x00F1E51B]
+	(No symbol) [0x00F2C613]
+	(No symbol) [0x00F1A6D6]
+	(No symbol) [0x00EF847C]
+	(No symbol) [0x00EF957D]
+	GetHandleVerifier [0x0129FD5D+2575277]
+	GetHandleVerifier [0x012DF86E+2836158]
+	GetHandleVerifier [0x012D96DC+2811180]
+	GetHandleVerifier [0x010C41B0+626688]
+	(No symbol) [0x00FD314C]
+	(No symbol) [0x00FCF4B8]
+	(No symbol) [0x00FCF59B]
+	(No symbol) [0x00FC21B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 75, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 513, in uploadFacebook
+    self.__reelsFacebook(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 368, in __reelsFacebook
+    hbtn.click()
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 12:45:42
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:12818
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 921, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1154, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 13:38:05
+==>> Type: <class 'TypeError'>
+==>> Value: StaffUpload.paste_content() missing 1 required positional argument: 'content'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 79, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 656, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 543, in __shortsYT
+    self.paste_content(desc_textbox, data[1])
+
+==>> Time: 03-02-2024 13:41:51
+==>> Type: <class 'UnboundLocalError'>
+==>> Value: cannot access local variable 'thumb_path' where it is not associated with a value
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 79, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 658, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 547, in __shortsYT
+    print(f"==>> thumb_path: {thumb_path}")
+                              ^^^^^^^^^^
+
+==>> Time: 03-02-2024 13:43:14
+==>> Type: <class 'UnboundLocalError'>
+==>> Value: cannot access local variable 'thumb_path' where it is not associated with a value
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 79, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 659, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 547, in __shortsYT
+    print(f"==>> thumb_path: {thumb_path}")
+                              ^^^^^^^^^^
+
+==>> Time: 03-02-2024 13:44:11
+==>> Type: <class 'selenium.common.exceptions.JavascriptException'>
+==>> Value: Message: javascript error: Cannot read properties of null (reading 'scrollIntoView')
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x01036E73+48323]
+	(No symbol) [0x00FC9661]
+	(No symbol) [0x00ED5308]
+	(No symbol) [0x00ED8751]
+	(No symbol) [0x00EDA14B]
+	(No symbol) [0x00F2D419]
+	(No symbol) [0x00F1A8DC]
+	(No symbol) [0x00F2CAC2]
+	(No symbol) [0x00F1A6D6]
+	(No symbol) [0x00EF847C]
+	(No symbol) [0x00EF957D]
+	GetHandleVerifier [0x0129FD5D+2575277]
+	GetHandleVerifier [0x012DF86E+2836158]
+	GetHandleVerifier [0x012D96DC+2811180]
+	GetHandleVerifier [0x010C41B0+626688]
+	(No symbol) [0x00FD314C]
+	(No symbol) [0x00FCF4B8]
+	(No symbol) [0x00FCF59B]
+	(No symbol) [0x00FC21B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 79, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 659, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 570, in __shortsYT
+    browser.scrollToElement(tags_container)
+  File "d:\Folinas Socials Tool\core\SeleniumFunctions.py", line 76, in scrollToElement
+    self.driver.execute_script(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 407, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 13:58:18
+==>> Type: <class 'selenium.common.exceptions.ElementClickInterceptedException'>
+==>> Value: Message: element click intercepted: Element <tp-yt-paper-radio-button name="VIDEO_MADE_FOR_KIDS_NOT_MFK" class="style-scope ytkc-made-for-kids-select" role="radio" tabindex="-1" toggles="" aria-checked="false" aria-disabled="false" aria-selected="false">...</tp-yt-paper-radio-button> is not clickable at point (527, 416). Other element would receive the click: <div class="dialog-scrim style-scope ytcp-uploads-dialog"></div>
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x01036E73+48323]
+	(No symbol) [0x00FC9661]
+	(No symbol) [0x00ED5308]
+	(No symbol) [0x00F05202]
+	(No symbol) [0x00F03D38]
+	(No symbol) [0x00F0253B]
+	(No symbol) [0x00F0193E]
+	(No symbol) [0x00EFA0FC]
+	(No symbol) [0x00F1A8DC]
+	(No symbol) [0x00EF9BD6]
+	(No symbol) [0x00F1AC34]
+	(No symbol) [0x00F2CAC2]
+	(No symbol) [0x00F1A6D6]
+	(No symbol) [0x00EF847C]
+	(No symbol) [0x00EF957D]
+	GetHandleVerifier [0x0129FD5D+2575277]
+	GetHandleVerifier [0x012DF86E+2836158]
+	GetHandleVerifier [0x012D96DC+2811180]
+	GetHandleVerifier [0x010C41B0+626688]
+	(No symbol) [0x00FD314C]
+	(No symbol) [0x00FCF4B8]
+	(No symbol) [0x00FCF59B]
+	(No symbol) [0x00FC21B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 79, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 662, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 562, in __shortsYT
+    kids_section.click()
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 14:16:57
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:50776
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 802, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1304, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 15:54:28
+==>> Type: <class 'KeyError'>
+==>> Value: '3'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 82, in run
+    self.uploadTwitter(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 819, in uploadTwitter
+    self.__twitter(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 722, in __twitter
+    if month.text == self.getMonth(date_s[0]):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 815, in getMonth
+    return data[month]
+           ~~~~^^^^^^^
+
+==>> Time: 03-02-2024 16:19:51
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 85, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 841, in uploadInstagram
+    self.__twitter(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 697, in __twitter
+    inp.send_keys(data[4])
+    ^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 16:20:20
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 85, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 841, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 809, in __instagram
+    create.click()
+    ^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 16:21:16
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 85, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 841, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 809, in __instagram
+    create.click()
+    ^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 16:22:32
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:57875
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00432733+2434867]
+	Ordinal0 [0x003C07A1+1968033]
+	Ordinal0 [0x002AC678+837240]
+	Ordinal0 [0x002CCAC3+969411]
+	Ordinal0 [0x002C60DB+942299]
+	Ordinal0 [0x002C5EA6+941734]
+	Ordinal0 [0x002F90B0+1151152]
+	Ordinal0 [0x002F8D0A+1150218]
+	Ordinal0 [0x002F4256+1131094]
+	Ordinal0 [0x002CE840+976960]
+	Ordinal0 [0x002CF736+980790]
+	GetHandleVerifier [0x006A3C72+2515426]
+	GetHandleVerifier [0x0069702F+2463135]
+	GetHandleVerifier [0x004D522A+620442]
+	GetHandleVerifier [0x004D4016+615814]
+	Ordinal0 [0x003C707B+1994875]
+	Ordinal0 [0x003CB938+2013496]
+	Ordinal0 [0x003CBA25+2013733]
+	Ordinal0 [0x003D4DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 59, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1468, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "c:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 03-02-2024 16:22:51
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 85, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 841, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 814, in __instagram
+    inp.send_keys(data[4])
+    ^^^^^^^^^^^^^
+
+==>> Time: 03-02-2024 16:23:56
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 85, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 841, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 814, in __instagram
+    inp.send_keys(data[4])
+    ^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 08:43:57
+==>> Type: <class 'requests.exceptions.ConnectionError'>
+==>> Value: HTTPConnectionPool(host='127.0.0.1', port=53200): Max retries exceeded with url: /api/v2/profile-close (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C23D6250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 400, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 54, in stopThisWorkerNow
+    requests.post(action, json=paras)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+
+==>> Time: 05-02-2024 08:44:01
+==>> Type: <class 'requests.exceptions.ConnectionError'>
+==>> Value: HTTPConnectionPool(host='127.0.0.1', port=53200): Max retries exceeded with url: /api/v2/profile-close (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C23F0C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 400, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 54, in stopThisWorkerNow
+    requests.post(action, json=paras)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+
+==>> Time: 05-02-2024 08:44:05
+==>> Type: <class 'requests.exceptions.ConnectionError'>
+==>> Value: HTTPConnectionPool(host='127.0.0.1', port=53200): Max retries exceeded with url: /api/v2/profile-close (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C23D6210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 400, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 54, in stopThisWorkerNow
+    requests.post(action, json=paras)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+
+==>> Time: 05-02-2024 08:45:00
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 86, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1117, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1065, in __instagram
+    create.click()
+    ^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 08:46:37
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 86, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1117, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1065, in __instagram
+    create.click()
+    ^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:03:46
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 80, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 938, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 802, in __shortsYT
+    browser.find(By.XPATH, "//input[@type='file']").send_keys(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:04:27
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:15180
+from chrome not reachable
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D76E73+48323]
+	(No symbol) [0x00D09661]
+	(No symbol) [0x00C151D0]
+	(No symbol) [0x00C0B305]
+	(No symbol) [0x00C35E08]
+	(No symbol) [0x00C30854]
+	(No symbol) [0x00C30631]
+	(No symbol) [0x00C60DF5]
+	(No symbol) [0x00C60ADC]
+	(No symbol) [0x00C5A6D6]
+	(No symbol) [0x00C3847C]
+	(No symbol) [0x00C3957D]
+	GetHandleVerifier [0x00FDFD5D+2575277]
+	GetHandleVerifier [0x0101F86E+2836158]
+	GetHandleVerifier [0x010196DC+2811180]
+	GetHandleVerifier [0x00E041B0+626688]
+	(No symbol) [0x00D1314C]
+	(No symbol) [0x00D0F4B8]
+	(No symbol) [0x00D0F59B]
+	(No symbol) [0x00D021B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 60, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1748, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 05-02-2024 09:04:39
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'send_keys'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 80, in run
+    self.uploadYoutube(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 938, in uploadYoutube
+    self.__shortsYT(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 802, in __shortsYT
+    browser.find(By.XPATH, "//input[@type='file']").send_keys(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:06:00
+==>> Type: <class 'selenium.common.exceptions.ElementClickInterceptedException'>
+==>> Value: Message: element click intercepted: Element <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">...</div> is not clickable at point (146, 174). Other element would receive the click: <input data-friend="new" aria-checked="true" aria-label="Allow gifts" role="switch" aria-describedby="js_7z" class="xjyslct x1ypdohk x5yr21d x17qophe xdj266r x11i5rnm xat24cr x1mh8g0r x1w3u9th x1t137rt x10l6tqk x13vifvy xh8yej3 x1vjfegm" id="js_7y" type="checkbox" value="true" checked="">
+  (Session info: chrome=114.0.5735.45)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D76E73+48323]
+	(No symbol) [0x00D09661]
+	(No symbol) [0x00C15308]
+	(No symbol) [0x00C45202]
+	(No symbol) [0x00C43D38]
+	(No symbol) [0x00C4253B]
+	(No symbol) [0x00C4193E]
+	(No symbol) [0x00C3A0FC]
+	(No symbol) [0x00C5A8DC]
+	(No symbol) [0x00C39BD6]
+	(No symbol) [0x00C5AC34]
+	(No symbol) [0x00C6CAC2]
+	(No symbol) [0x00C5A6D6]
+	(No symbol) [0x00C3847C]
+	(No symbol) [0x00C3957D]
+	GetHandleVerifier [0x00FDFD5D+2575277]
+	GetHandleVerifier [0x0101F86E+2836158]
+	GetHandleVerifier [0x010196DC+2811180]
+	GetHandleVerifier [0x00E041B0+626688]
+	(No symbol) [0x00D1314C]
+	(No symbol) [0x00D0F4B8]
+	(No symbol) [0x00D0F59B]
+	(No symbol) [0x00D021B7]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 77, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 782, in uploadFacebook
+    self.__reelsFacebook(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 652, in __reelsFacebook
+    publicBtn.click()
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 05-02-2024 09:11:33
+==>> Type: <class 'KeyError'>
+==>> Value: 99
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 403, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 61, in stopThisWorkerNow
+    del self.browsersInQueue[id_ixbrowser]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:11:34
+==>> Type: <class 'KeyError'>
+==>> Value: 99
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 403, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 61, in stopThisWorkerNow
+    del self.browsersInQueue[id_ixbrowser]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:11:35
+==>> Type: <class 'KeyError'>
+==>> Value: 99
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 403, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 61, in stopThisWorkerNow
+    del self.browsersInQueue[id_ixbrowser]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 09:13:20
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 414, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 394, in customMenuVideos
+    openTheAccount(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 50, in openTheAccount
+    startBrowserFromUore(
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1721, in startBrowserFromUore
+    proxy = record[7]
+            ~~~~~~^^^
+
+==>> Time: 05-02-2024 11:58:07
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 414, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 394, in customMenuVideos
+    openTheAccount(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 50, in openTheAccount
+    startBrowserFromUore(
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1764, in startBrowserFromUore
+    proxy = record[7]
+            ~~~~~~^^^
+
+==>> Time: 05-02-2024 13:57:04
+==>> Type: <class 'TypeError'>
+==>> Value: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 78, in run
+    self.uploadFacebook(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 795, in uploadFacebook
+    self.__videosFacebook(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 227, in __videosFacebook
+    percent = int(uploadSection.get_attribute('aria-valuenow'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 05-02-2024 14:08:35
+==>> Type: <class 'selenium.common.exceptions.WebDriverException'>
+==>> Value: Message: unknown error: cannot connect to chrome at 127.0.0.1:43157
+from session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 114.0.5735.45
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x009D2733+2434867]
+	Ordinal0 [0x009607A1+1968033]
+	Ordinal0 [0x0084C678+837240]
+	Ordinal0 [0x0086CAC3+969411]
+	Ordinal0 [0x008660DB+942299]
+	Ordinal0 [0x00865EA6+941734]
+	Ordinal0 [0x008990B0+1151152]
+	Ordinal0 [0x00898D0A+1150218]
+	Ordinal0 [0x00894256+1131094]
+	Ordinal0 [0x0086E840+976960]
+	Ordinal0 [0x0086F736+980790]
+	GetHandleVerifier [0x00C43C72+2515426]
+	GetHandleVerifier [0x00C3702F+2463135]
+	GetHandleVerifier [0x00A7522A+620442]
+	GetHandleVerifier [0x00A74016+615814]
+	Ordinal0 [0x0096707B+1994875]
+	Ordinal0 [0x0096B938+2013496]
+	Ordinal0 [0x0096BA25+2013733]
+	Ordinal0 [0x00974DE1+2051553]
+	BaseThreadInitThunk [0x7667FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C27C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C27C3E+238]
+
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 61, in run
+    driver = startBrowserFromUore(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1785, in startBrowserFromUore
+    driver = openBrowser(ACTION_FOR_BROWSER_OPEN, int(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\ControlBrowser.py", line 270, in openBrowser
+    driver = Chrome(service=Service(web_driver_path), options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    super().__init__(
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Folinas Staff\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+
+==>> Time: 06-02-2024 08:40:42
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: near "FROM": syntax error
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 317, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(
+                                           ^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 309, in customMenu
+    deleteTheAccount(index, table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 61, in deleteTheAccount
+    cursor.execute(f"SELECT FROM profiles WHERE uore=?", (uore,))
+
+==>> Time: 06-02-2024 08:41:44
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: near "FROM": syntax error
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 318, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(
+                                           ^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 310, in customMenu
+    deleteTheAccount(index, table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 62, in deleteTheAccount
+    cursor.execute(f"SELECT FROM profiles WHERE uore=?", (uore,))
+
+==>> Time: 06-02-2024 08:43:21
+==>> Type: <class 'sqlite3.OperationalError'>
+==>> Value: near "FROM": syntax error
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 319, in <lambda>
+    table.contextMenuEvent = lambda event: customMenu(
+                                           ^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 311, in customMenu
+    deleteTheAccount(index, table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 63, in deleteTheAccount
+    cursor.execute(f"SELECT FROM profiles WHERE uore=?", (uore,))
+
+==>> Time: 06-02-2024 15:41:47
+==>> Type: <class 'AttributeError'>
+==>> Value: 'QueueWindow' object has no attribute 'waitThread'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 404, in <lambda>
+    lambda: self.startThisWorkerNow(indexAsset, startWorker, waitForThread, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 147, in startThisWorkerNow
+    self.waitThread[indexAsset] = waitForIt()
+    ^^^^^^^^^^^^^^^
+
+==>> Time: 06-02-2024 15:41:52
+==>> Type: <class 'AttributeError'>
+==>> Value: 'QueueWindow' object has no attribute 'waitThread'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 404, in <lambda>
+    lambda: self.startThisWorkerNow(indexAsset, startWorker, waitForThread, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 147, in startThisWorkerNow
+    self.waitThread[indexAsset] = waitForIt()
+    ^^^^^^^^^^^^^^^
+
+==>> Time: 06-02-2024 15:46:14
+==>> Type: <class 'AttributeError'>
+==>> Value: 'NoneType' object has no attribute 'click'
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 87, in run
+    self.uploadInstagram(browser)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1155, in uploadInstagram
+    self.__instagram(browser, indexVideo)
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1076, in __instagram
+    nextBtn.click()
+    ^^^^^^^^^^^^^
+
+==>> Time: 06-02-2024 15:46:22
+==>> Type: <class 'TypeError'>
+==>> Value: QueueWindow.stopThisWorkerNow() takes 4 positional arguments but 5 were given
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 425, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, waitForThread, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 06-02-2024 15:46:33
+==>> Type: <class 'TypeError'>
+==>> Value: QueueWindow.stopThisWorkerNow() takes 4 positional arguments but 5 were given
+==>> Traceback:
+  File "d:\Folinas Socials Tool\windows\QueueWindow.py", line 425, in <lambda>
+    lambda: self.stopThisWorkerNow(indexAsset, startWorker, waitForThread, id_ixbrowser))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 06-02-2024 16:38:17
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 438, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 418, in customMenuVideos
+    openTheAccount(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 50, in openTheAccount
+    startBrowserFromUore(
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1758, in startBrowserFromUore
+    proxy = record[7]
+            ~~~~~~^^^
+
+==>> Time: 06-02-2024 16:38:19
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 438, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 418, in customMenuVideos
+    openTheAccount(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 50, in openTheAccount
+    startBrowserFromUore(
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1758, in startBrowserFromUore
+    proxy = record[7]
+            ~~~~~~^^^
+
+==>> Time: 06-02-2024 16:38:23
+==>> Type: <class 'TypeError'>
+==>> Value: 'NoneType' object is not subscriptable
+==>> Traceback:
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 438, in <lambda>
+    table.contextMenuEvent = lambda event: customMenuVideos(
+                                           ^^^^^^^^^^^^^^^^^
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 418, in customMenuVideos
+    openTheAccount(index.row(), table)
+  File "d:\Folinas Socials Tool\core\WidgetsSetup.py", line 50, in openTheAccount
+    startBrowserFromUore(
+  File "d:\Folinas Socials Tool\core\HomeController.py", line 1758, in startBrowserFromUore
+    proxy = record[7]
+            ~~~~~~^^^
+
+==>> Time: 24-02-2024 13:16:58
+==>> Type: <class 'FileNotFoundError'>
+==>> Value: [WinError 3] The system cannot find the path specified: 'D:\\Folinas Socials Tool\\thumucupload'
+==>> Traceback:
+  File "D:\Folinas Socials Tool\windows\HomeWindow.py", line 344, in run
+    for file in os_sorted(os.listdir(uploadFolderPath)):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==>> Time: 24-02-2024 13:19:33
+==>> Type: <class 'IndexError'>
+==>> Value: list index out of range
+==>> Traceback:
+  File "D:\Folinas Socials Tool\windows\BulkScheduleWindow.py", line 126, in applyToMainTableFuncs
+    self.applyToThem(self.type)
+  File "D:\Folinas Socials Tool\windows\BulkScheduleWindow.py", line 211, in applyToThem
+    theTime = structureTime[stt]
+              ~~~~~~~~~~~~~^^^^^
+
